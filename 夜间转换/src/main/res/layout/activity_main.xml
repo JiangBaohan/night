@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/mainBackground">
+<!--注意::这里引用一下我们自定义的attr资源android:background="?attr/mainBackground"
+可以使用到此属性的控件带有日夜模式切换-->
+    <TextView
+        android:id="@+id/bt_change"
+        android:background="?attr/mainBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="日夜模式切换"/>
+</RelativeLayout>
